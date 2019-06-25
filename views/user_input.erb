@@ -1,22 +1,16 @@
 <!DOCTYPE html>
-<!--<html>-->
-<!--  <head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <title>User Input</title>-->
-<!--  </head>-->
-<!--  <body>-->
-    <h1>Pig Latinizer</h1>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+    <h1>Pig Latinizer!</h1>
 
     <form method="POST" action="/piglatinize">
-      Phrase:<input type="text" id="phrase" name='user_phrase'>
+      <label for="phrase">Enter your phrase:</label>
+      <input type="text" id="phrase" name='user_phrase'>
       <input type="submit">
-    </form>
-
-
-    <h3>Enter your phrase:</h3>
-    <form method="POST" action="/piglatinize">
-      <p>Word:<input type="text" name="user_phrase"></p>
-      <input type="submit" name="submit">
     </form>
   </body>
 </html>
